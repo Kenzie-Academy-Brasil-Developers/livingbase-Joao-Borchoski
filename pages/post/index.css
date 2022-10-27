@@ -1,1 +1,110 @@
-/* Desenvolva seu estilo aqui */
+body {
+    animation: 1s easeIn;
+}
+@keyframes easeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+header {
+    padding: 30px 300px;
+    border-bottom: 1px solid #E9ECEF;
+    background: #F8F9FA;
+}
+main {
+    margin-bottom: 50px;
+}
+.butHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22px;
+    height: 38px;
+    background: #e9ecef;
+    border-radius: 32px;
+    border: none;
+}
+.butHome:hover {
+    background: #087F5B;
+    color: white;
+    transition: 0.5s;
+}
+.divTitle {
+    padding: 30px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    width: 100vw;
+    height: 336px;
+    background: #F1F3F5;
+}
+.divTitle h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    width: 80%;
+}
+.divTitle p {
+    color: #495057;
+}
+.divPost {
+    padding: 30px 300px;
+}
+.divPost p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    font-style: normal;
+}
+.divPost img{
+    object-fit: cover;
+    height: 402px;
+}
+.butSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22px;
+    height: 38px;
+    border: 1px solid #F1F3F5;
+    border-radius: 32px;
+    background: #F1F3F5;
+}
+.secPost {
+    margin-bottom: 30px;
+}
+.divSections {
+    padding: 30px 300px;
+}
+footer {
+    background: #212529;
+    height: 255px;
+    padding: 30px 300px;
+}
+.secFooter1 {
+    width: 733px;
+}
+.secFooter1 section h2 {
+    color: #F8F9FA;
+}
+.secFooter1 p {
+    color: #808387;
+}
+.clickTop {
+    text-decoration: none;
+}
+.butFooterTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22px;
+    height: 38px;
+    border: 1px solid #495057;
+    border-radius: 32px;
+    background: #495057;
+    border: 1px transparent solid;
+    color: #F1F3F5;
+}
